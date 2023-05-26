@@ -1,15 +1,14 @@
-README
-## Selenium Unit Test
+## Smart UI Automation with Selenium Unit Test
 
 ### Description
 
-This code is a Python script that demonstrates the use of Selenium WebDriver with unit testing framework (unittest) to perform automated tests on a website. It includes a sample test case that performs actions such as opening a webpage, taking screenshots, and quitting the browser.
+This code is a Python script that demonstrates the use of Selenium WebDriver with the unit testing framework (unittest) to perform Smart UI automation tests on a website. It includes a sample test case that performs actions such as opening a webpage, taking Smart UI screenshots, and quitting the browser.
 
 ### Dependencies
 
 - Selenium: The code requires the Selenium library to be installed. You can install it using the following command:
 
-```
+```shell
 pip install selenium
 ```
 
@@ -24,13 +23,13 @@ username = "your_username_here"  # Replace with your LambdaTest username
 access_key = "your_access_key_here"  # Replace with your LambdaTest access key
 ```
 
-3. Update the desired capabilities in the `setUp` method to match your test requirements. You can customize the browser, version, platform, resolution, and other settings.
+3. Update the desired capabilities in the `setUp` method to match your test requirements. You can customize the browser, version, platform, resolution, and other settings. Additionally, provide the project name in the `"smartUI.project"` capability.
 
 4. Modify the test case method `test_unit_user_should_able_to_add_item` to write your own test case logic. You can add assertions, interact with the website, and perform any necessary actions for your specific test scenario.
 
 5. Run the script using the following command:
 
-```
+```shell
 python script.py
 ```
 
@@ -38,7 +37,7 @@ python script.py
 
 - The script uses the LambdaTest Selenium grid to execute the tests on remote browsers. Make sure you have a valid LambdaTest account and provide the correct username and access key.
 
-- The code includes sample code to take screenshots using LambdaTest's Smart UI feature. You can modify or remove this code based on your requirements.
+- The code includes sample code to take Smart UI screenshots using LambdaTest's Smart UI feature. You can modify or remove this code based on your requirements.
 
 - It's important to call `driver.quit()` in the `tearDown` method to close the browser and release system resources.
 
